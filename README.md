@@ -38,15 +38,15 @@
     Open your web browser and go to `http://127.0.0.1:5000/`.
 
 3. **Start Camera**:
-    Start the camera and perfrom sign language gesture and get the prediction.
+    Start the camera and perform a sign language gesture to get the prediction.
 
 ## Training the Model
-The CNN model was trained using a dataset of sign language gestures. The training process involved:
+The CNN model was trained using the [Sign Language MNIST dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist). The training process involved:
 - **Data Preprocessing**: Normalizing images and augmenting the dataset.
 - **Model Architecture**: Building a CNN with multiple convolutional and dense layers.
 - **Training**: Using TensorFlow to train the model.
 
-The training script and dataset preprocessing script can be found in the `model/` directory.
+You can retrain the model using the `train_model.py` script located in the `model/` directory. The training script and dataset preprocessing script can be found in the `model/` directory.
 
 ## Results
 The model achieves an accuracy of 98% on the test set. Below are some example results:
@@ -61,3 +61,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 
 
+## Acknowledgments
+- [Sign Language MNIST dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
+- [Any other resources or inspirations you used]
